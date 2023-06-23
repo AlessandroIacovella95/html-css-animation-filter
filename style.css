@@ -191,49 +191,44 @@
 
 /* ex 12 */
 
-.ex-12-button:hover .ex-12-top-white{
-  animation: top 2s linear;
+.ex-12-button:hover .ex-12-top-white {
+  animation: topwhite 2s linear;
 }
-
-@keyframes top{
-  0%{
-    left:10%;
+@keyframes topwhite {
+  0% {
+      left: 10%;
   }
-
-  50%{
-    left: calc(100% - 60px);
+  50% {
+      left: calc(100% - 60px);
   }
-
-  100%{
-      left:10%;  
+  100% {
+      left: 10%;
   }
 }
 
-.ex-12-button:hover .ex-12-bottom-white{
-  animation: bottom 2s linear;
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: bottomwhite 2s linear;
+}
+@keyframes bottomwhite {
+  0% {
+      right: 20%;
+  }
+  50% {
+      right: calc(100% - 60px);
+  }
+  100% {
+      right: 20%;
+  }
 }
 
-@keyframes bottom{
-  0%{
-    right:20%;
-  }
-
-  50%{
-    right: calc(100% - 60px);
-  }
-
-  100%{
-      right:20%;  
-  }
-}
 
 /* ex 13 */
 
 .ex-13-button:hover .ex-13-top-white{
-  animation: top 2s linear;
+  animation: topwhitecompleto 2s linear;
 }
 
-@keyframes top{
+@keyframes topwhitecompleto{
   0% {
     left:10%;
     top:-10px;
@@ -267,10 +262,10 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-  animation: bottom 2s linear;
+  animation: bottomwhitecompleto 2s linear;
 }
 
-@keyframes bottom{
+@keyframes bottomwhitecompleto{
   0% {
     right:20%;
     bottom:-10px;
